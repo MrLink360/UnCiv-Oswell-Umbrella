@@ -1,38 +1,53 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
-
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
-
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"name": "Umbrella Corporation",
+		"adjective": "Umbrella",
+		"prefer": "Gold",
+		"startBias": "Science",
+		"leaders": [
+			{
+				"name": "Oswell E Spencer",
+				"ability": {
+					"name": "Umbrella’s Influence",
+					"uniques": [
+						"[+1 Scientist specialist slot] in all cities",
+						"[+50]% [Science] gained from research agreements",
+						"[+10]% [Science] and [+10]% [Gold] from [Great Person generation]"
+					]
+				},
+				"flavors": {
+					"expansion": 3,
+					"science": 9,
+					"gold": 8,
+					"military": 4
+				},
+				"flavorText": "The mastermind behind Umbrella Corporation, Oswell E Spencer is a visionary and ruthless leader. His ambition knows no bounds, driven by an insatiable hunger for knowledge and power. Under his leadership, Umbrella has thrived, pushing the boundaries of science and technology, often at the cost of ethics and humanity. With Spencer at the helm, Umbrella Corporation aims to dominate the world through groundbreaking scientific advancements, unrivaled economic power, and strategic expansion. His influence extends far and wide, shaping the very fabric of the modern world.",
+				"startIntroPart1": "Welcome, Oswell E Spencer, the visionary founder and leader of Umbrella Corporation. Your brilliance in science and ruthless ambition have propelled Umbrella to the forefront of global influence. From humble beginnings, you have built a corporation that transcends conventional boundaries, delving into the deepest realms of scientific research and technological advancement.",
+				"startIntroPart2": "With your relentless drive for progress, will you lead Umbrella to ultimate supremacy, outpacing all rivals and rewriting the very fabric of civilization? Will your new empire shine through the ages of history?",
+				"declaringWar": "Prepare for the full might of Umbrella Corporation!",
+				"attacked": "You dare to challenge Umbrella? Your folly will be your undoing.",
+				"defeated": "This setback is but a momentary lapse. Umbrella will rise again.",
+				"introduction": "I am Oswell E Spencer, founder of Umbrella Corporation. Together, we can achieve greatness.",
+				"neutralHello": "Greetings.",
+				"hateHello": "What do you want?",
+				"tradeRequest": "Let's discuss terms that will benefit both our enterprises."
+			}
+		],
+		"uniques": [
+			"[+15]% [Gold] and [+10]% [Science] in cities with [Pharmaceutical Plant]",
+			"[+1 Gold] and [+1 Science] for every trade route connected to a city with [Pharmaceutical Plant]",
+			"[+20]% [Great Person generation] in all cities"
+		],
+		"preferredVictoryType": "Science",
+		"agenda": {
+			"likes": [
+				"High Science output",
+				"High Economic output"
+			],
+			"dislikes": [
+				"Militaristic civilizations",
+				"Low Science output"
+			]
+		}
 	}
 ]

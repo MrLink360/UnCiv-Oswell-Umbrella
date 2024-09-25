@@ -1,53 +1,44 @@
 [
 	{
-		"name": "Umbrella Corporation",
-		"adjective": "Umbrella",
-		"prefer": "Gold",
-		"startBias": "Science",
-		"leaders": [
-			{
-				"name": "Oswell E Spencer",
-				"ability": {
-					"name": "Umbrella’s Influence",
-					"uniques": [
-						"[+1 Scientist specialist slot] in all cities",
-						"[+50]% [Science] gained from research agreements",
-						"[+10]% [Science] and [+10]% [Gold] from [Great Person generation]"
-					]
-				},
-				"flavors": {
-					"expansion": 3,
-					"science": 9,
-					"gold": 8,
-					"military": 4
-				},
-				"flavorText": "The mastermind behind Umbrella Corporation, Oswell E Spencer is a visionary and ruthless leader. His ambition knows no bounds, driven by an insatiable hunger for knowledge and power. Under his leadership, Umbrella has thrived, pushing the boundaries of science and technology, often at the cost of ethics and humanity. With Spencer at the helm, Umbrella Corporation aims to dominate the world through groundbreaking scientific advancements, unrivaled economic power, and strategic expansion. His influence extends far and wide, shaping the very fabric of the modern world.",
-				"startIntroPart1": "Welcome, Oswell E Spencer, the visionary founder and leader of Umbrella Corporation. Your brilliance in science and ruthless ambition have propelled Umbrella to the forefront of global influence. From humble beginnings, you have built a corporation that transcends conventional boundaries, delving into the deepest realms of scientific research and technological advancement.",
-				"startIntroPart2": "With your relentless drive for progress, will you lead Umbrella to ultimate supremacy, outpacing all rivals and rewriting the very fabric of civilization? Will your new empire shine through the ages of history?",
-				"declaringWar": "Prepare for the full might of Umbrella Corporation!",
-				"attacked": "You dare to challenge Umbrella? Your folly will be your undoing.",
-				"defeated": "This setback is but a momentary lapse. Umbrella will rise again.",
-				"introduction": "I am Oswell E Spencer, founder of Umbrella Corporation. Together, we can achieve greatness.",
-				"neutralHello": "Greetings.",
-				"hateHello": "What do you want?",
-				"tradeRequest": "Let's discuss terms that will benefit both our enterprises."
-			}
-		],
-		"uniques": [
-			"[+15]% [Gold] and [+10]% [Science] in cities with [Pharmaceutical Plant]",
-			"[+1 Gold] and [+1 Science] for every trade route connected to a city with [Pharmaceutical Plant]",
-			"[+20]% [Great Person generation] in all cities"
-		],
-		"preferredVictoryType": "Science",
-		"agenda": {
-			"likes": [
-				"High Science output",
-				"High Economic output"
-			],
-			"dislikes": [
-				"Militaristic civilizations",
-				"Low Science output"
-			]
-		}
+	  "name": "Umbrella Corporation",
+	  "adjective": ["Umbrella"],
+	  "leaderName": "Oswell E Spencer",
+	  "startBias": ["Jungle"],
+	  "preferredVictoryType": "Scientific",
+  
+	  "startIntroPart1": "Welcome, Oswell E Spencer, the visionary founder and leader of Umbrella Corporation. Your brilliance in science and ruthless ambition have propelled Umbrella to the forefront of global influence. From humble beginnings, you have built a corporation that transcends conventional boundaries, delving into the deepest realms of scientific research and technological advancement.",
+	  "startIntroPart2": "With your relentless drive for progress, will you lead Umbrella to ultimate supremacy, outpacing all rivals and rewriting the very fabric of civilization? Will your new empire shine through the ages of history?",
+  
+	  "declaringWar": "Prepare for the full might of Umbrella Corporation!",
+	  "attacked": "You dare to challenge Umbrella? Your folly will be your undoing.",
+	  "defeated": "This setback is but a momentary lapse. Umbrella will rise again.",
+	  "introduction": "I am Oswell E Spencer, founder of Umbrella Corporation. Together, we can achieve greatness.",
+	  "neutralHello": "Greetings.",
+	  "hateHello": "What do you want?",
+	  "tradeRequest": "Let's discuss terms that will benefit both our enterprises.",
+  
+	  "uniqueName": "Umbrella's Influence",
+	  "uniques": [
+		"[+1 Scientist] in every city",
+		"[+50]% Science from Research agreements",
+		"[+10]% Great Person generation in all cities",
+		"[+10]% Science [in cities with a [Pharmaceutical Plant]]",
+		"[+10]% Production [in cities with a [Viral Research Lab]]",
+		"[+1 Science, +1 Gold] from every [Trade route] connected to a city with a [Pharmaceutical Plant] or [Viral Research Lab]"
+	  ],
+  
+	  "cities": [
+		"Raccoon City",
+		"Caliban Cove",
+		"Spencer Estate",
+		"Arklay Research Facility",
+		"Rockfort Island",
+		"Sheena Island",
+		"Caucasus Facility",
+		"Ecliptic City",
+		"Antarctic Base",
+		"Tricell Africa"
+	  ]
 	}
-]
+  ]
+  

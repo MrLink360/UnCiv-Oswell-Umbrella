@@ -1,0 +1,9 @@
+{
+    "name": "Umbrella Corporation",
+    "author": "MrL360",
+    "url": "https://github.com/MrLink360/UnCiv-Oswell-Umbrella",
+    "version": "1.0",
+    "description": "Adds the Umbrella Corporation from Resident Evil to UnCiv",
+    "isBaseRuleset": false,
+    "dependencies": ["Base Ruleset"]
+  }

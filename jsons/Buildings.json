@@ -1,25 +1,33 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+	  "name": "Pharmaceutical Plant",
+	  "uniqueTo": "Umbrella Corporation",
+	  "cost": 200,
+	  "maintenance": 2,
+	  "production": 2,
+	  "science": 3,
+	  "requiredTech": "Biology",
+	  "uniques": [
+		"Must be next to [Fresh water]",
+		"[+1 Science] from [Jungle] tiles [in this city]",
+		"[+10]% Production towards [Science] buildings [in this city]",
+		"[+1 Gold] from every [Specialist] [in this city]",
+		"Provides [1] [Scientist] specialist slot"
+	  ]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+	  "name": "Viral Research Lab",
+	  "uniqueTo": "Umbrella Corporation",
+	  "replaces": "Research Lab",
+	  "cost": 500,
+	  "maintenance": 3,
+	  "science": 5,
+	  "requiredTech": "Plastics",
+	  "uniques": [
+		"[+2 Science] from every [Specialist] [in this city]",
+		"[+15]% Production when constructing [Military] units [in this city]",
+		"Provides [1] [Scientist] specialist slot"
+	  ]
 	}
-]
+  ]
+  

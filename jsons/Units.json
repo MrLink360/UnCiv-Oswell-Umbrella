@@ -1,17 +1,22 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+	  "name": "B.O.W.",
+	  "unitType": "Melee",
+	  "uniqueTo": "Umbrella Corporation",
+	  "replaces": "Infantry",
+	  "movement": 2,
+	  "strength": 75,
+	  "cost": 300,
+	  "requiredTech": "Biology",
+	  "upgradesTo": "Mechanized Infantry",
+	  "obsoleteTech": "Robotics",
+	  "uniques": [
+		"Can move after attacking",
+		"[+10]% Strength for every adjacent [B.O.W.] unit",
+		"Heals [25] damage if it kills a unit"
+	  ],
+	  "promotions": ["Shock I"],
+	  "attackSound": "monster"
 	}
-]
+  ]
+  
